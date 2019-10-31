@@ -1,7 +1,10 @@
 from django.contrib import admin
 from django.urls import include, path
 from . import views
+from django.urls import path
 
+# lets django know which app to use to create urlsfor
+app_name = 'polls'
 urlpatterns = [
     # ex: /polls/
     path('', views.index, name='index'),
