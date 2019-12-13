@@ -1,0 +1,9 @@
+body {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a,
+h1 {
+    color: green;
+}
